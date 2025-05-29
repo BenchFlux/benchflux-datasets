@@ -1,6 +1,10 @@
 # SpatialEddy
- The SpatialEddy team 
+ The SpatialEddy team focuses on spatializing flux tower data using NEON eddy-covariance data and environmental response functions. Our dataset includes geospatial flux maps and their respective quality masks. *This data is provided under a CC BY-SA 4.0 data license.*
 
+ The Dataset includes:
+ - 4 NEON sites: JORN, STEI, STER, TREE
+ - Data covereage for 2019
+ - carbon, H2O and heat flux at each site 
 
 
  ## Data Aquisition
