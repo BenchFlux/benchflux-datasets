@@ -30,6 +30,9 @@ or download at the site level - Treehaven for example.
 
 ## Getting Started
 ---
+Visit tutorial.ipynb in the SpatialEddy/ directory to explore the SpatialEddy data.
 
+To create a python environment for this tutorial, run
 
+`pip install -r requirements.txt`
 
