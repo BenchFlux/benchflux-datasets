@@ -3,7 +3,7 @@
 
  The Dataset includes:
  - 4 NEON sites: JORN, STEI, STER, TREE
- - Data covereage for 2019
+ - Data covereage for 2019 (2020 coming soon)
  - carbon, H2O and heat flux at each site 
 
 
