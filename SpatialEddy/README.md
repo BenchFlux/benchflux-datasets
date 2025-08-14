@@ -32,6 +32,10 @@ or download at the site level - Treehaven for example.
 
 **warning** each site has an uncompressed size of ~8-10GB and a total dataset size of ~35.5GB, so this download will take some time to download.
 Because of this, we highly recommend downloading data at the **site level** rather than the entire dateset.
+
+You can also visit the cloud storage GUI at https://console.cloud.google.com/storage/browser/data-benchflux to download segments of the dataset manually.
+
+
 ## Getting Started
 ---
 Visit tutorial.ipynb in the SpatialEddy/ directory to explore the SpatialEddy data.
