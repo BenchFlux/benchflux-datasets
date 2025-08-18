@@ -9,9 +9,9 @@
 
  ## Data Aquisition
  ---
- *SpatialEddy BenchFlux dataset is stored in a public GCP folder. No permissions are needed to grab the data, but make sure the Gcloud CLI correctly is installed https://cloud.google.com/sdk/docs/install*
+ *SpatialEddy BenchFlux dataset is stored in a public GCP folder. No permissions are needed to access the data, but make sure the Gcloud CLI correctly is installed https://cloud.google.com/sdk/docs/install*
 
- Make sure you authenticate first (follow the browser instructions after entering the command line below.)
+ Make sure you authenticate first (follow the browser prompt after entering the command line below.)
 
 `gcloud auth login`
 
@@ -19,21 +19,21 @@ CD into the local directory you plan to store the SpatialEddy data in.
 
 `cd 'path/to/your/folder'`
 
-Download the entire data bucket...
+Download the entire dataset (not recommended)...
 
 `gsutil -m cp -r gs://data-benchflux .`
 
-or download at the site level - Treehaven for example.
+or download at the site level: Treehaven for example.
 
 
 `gsutil -m cp -r \
   "gs://data-benchflux/TREE" \
   .`
 
-**warning** each site has an uncompressed size of ~8-10GB and a total dataset size of ~35.5GB, so this download will take some time to download.
-Because of this, we highly recommend downloading data at the **site level** rather than the entire dateset.
+**warning** each site has an uncompressed size of ~8-10GB and a total dataset size of ~35.5GB.
+Because of this, we highly recommend downloading data at the **site level** (see above section), or **manually** (see below section), rather than the entire dateset.
 
-You can also visit the cloud storage GUI at https://console.cloud.google.com/storage/browser/data-benchflux to download segments of the dataset manually.
+You can also visit the cloud storage GUI at https://console.cloud.google.com/storage/browser/data-benchflux to download user-selected chunks of the dataset manually. Simply select the geotiff(s) that you wish to download, and follow the instructions after pressing the "download" button.
 
 
 ## Getting Started
